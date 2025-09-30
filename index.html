@@ -32,7 +32,7 @@
               <a class="nav__link" href="#miembro">convierte en miembro</a>
             </li>
             <li>
-              <a class="nav__link" href="#contactos">contactos</a>
+              <a class="nav__link" href="#footer">contactos</a>
             </li>
           </ul>
         </nav>
@@ -226,7 +226,7 @@
           </div>
         </section>
 
-        <section class="membership">
+        <section class="membership" id="membership">
           <h2 class="membership__title">
             ¡Convertirse en miembro es muy fácil!
           </h2>
@@ -284,18 +284,18 @@
         </section>
       </main>
 
-      <footer class="footer">
-        <div class="footer__columns">
-          <div class="footer__column: nth-child(1)">
-            <img
-              src="./images/logo.svg"
-              alt="Logo de la Biblioteca Triple Peaks"
-              class="footer__logo"
-            />
-          </div>
+      <footer class="footer" id="footer">
+        <div class="footer__cover">
+          <div class="footer__columns">
+            <div class="footer__column">
+              <img
+                src="./images/logo.svg"
+                alt="Logotipo de la Biblioteca Triple Peaks"
+                class="footer__logo"
+              />
+            </div>
 
-          <div class="footer__column">
-            <div class="footer__column_content_hours">
+            <div class="footer__column footer__column_content_hours">
               <h3 class="footer__column-heading">Horario de apertura</h3>
               <ul class="footer__list">
                 <li class="footer__list-item">Lunes - Viernes: 9:00 - 20:00</li>
@@ -304,10 +304,8 @@
                 </li>
               </ul>
             </div>
-          </div>
 
-          <div class="footer__column">
-            <div class="footer__column_content_social">
+            <div class="footer__column footer__column_content_social">
               <h3 class="footer__column-heading">Redes sociales</h3>
               <ul class="footer__list">
                 <li class="footer__list-item">
@@ -333,8 +331,9 @@
               </ul>
             </div>
           </div>
+
+          <p class="footer__copyright">© 2024 [Karen Cuellar Vasquz]</p>
         </div>
-        <p class="footer__copyright">© 2024 [Tu nombre]</p>
       </footer>
     </div>
   </body>
